@@ -9,24 +9,34 @@
 <body>
 
 <header>
-    <img src="logo.jpeg" alt="Logo Home for You">
-    <h1>Bem-vindo à Home for You</h1>
-    <p>Produtos de costura feitos à mão com amor e qualidade</p>
+    <div class="logo">
+        <img src="logo.jpeg" alt="Logo Home for You">
+    </div>
+    <nav>
+        <a href="#infantil">Infantil</a>
+        <a href="#hotelaria">Hotelaria</a>
+        <a href="#quarto">Quarto</a>
+        <a href="#artesanato">Artesanato</a>
+        <a href="#banho">Banho</a>
+        <a href="#cozinha">Cozinha</a>
+        <a href="#sala">Sala</a>
+        <a href="#saldão" class="highlight">Saldão</a>
+        <div class="icons">
+            <input type="text" placeholder="Pesquisar...">
+            <a href="#"><img src="lupa.png" alt="Pesquisar"></a>
+            <a href="#"><img src="usuario.png" alt="Usuário"></a>
+            <a href="#"><img src="carrinho-de-compras.png" alt="Carrinho de Compras"><span class="cart-count">0</span></a>
+        </div>
+    </nav>
 </header>
 
-<nav>
-    <a href="#products">Produtos</a>
-    <a href="#about">Sobre Nós</a>
-    <a href="#custom-bed">Montagem de Cama</a>
-    <a href="#contact">Contato</a>
-</nav>
+<div class="hero">
+    <h1>Qualidade em cada costura</h1>
+    <p>Explore nossos produtos feitos à mão e monte a cama dos seus sonhos</p>
+    <button>Clique Aqui</button>
+</div>
 
 <div class="container">
-    <section id="hero" class="hero">
-        <h1>Qualidade em cada costura</h1>
-        <p>Explore nossos produtos feitos à mão e monte a cama dos seus sonhos</p>
-    </section>
-
     <section id="products" class="section">
         <h2>Produtos em Destaque</h2>
         <div class="products">
@@ -45,25 +55,6 @@
         <div>
             <h2>Sobre a Home for You</h2>
             <p>A Home for You foi fundada com o propósito de trazer a arte da costura para a sua casa. Cada produto é feito com carinho e atenção aos detalhes, garantindo que você tenha o melhor em qualidade e design. Nossa inspiração vem das técnicas tradicionais de costura, adaptadas para as necessidades modernas.</p>
-        </div>
-    </section>
-
-    <section id="custom-bed" class="section">
-        <h2>Monte Sua Cama</h2>
-        <div class="custom-bed">
-            <div class="bed-preview">
-                <img src="path-to-your-bed-image.jpg" alt="Visualização da Cama">
-            </div>
-            <div class="bed-options">
-                <select>
-                    <option value="solteiro">Solteiro</option>
-                    <option value="queen">Queen</option>
-                    <option value="king">King</option>
-                </select>
-                <button>Selecionar Fronhas</button>
-                <button>Selecionar Lençóis</button>
-                <!-- Adicione mais opções aqui -->
-            </div>
         </div>
     </section>
 
