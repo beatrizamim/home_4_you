@@ -1,0 +1,202 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2d3e46;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center; /* Alinha o conteúdo à esquerda */
+    padding-left: 20px; /* Adiciona um pouco de espaço da borda esquerda */
+}
+
+nav a {
+    color: white;
+    margin: 0 100px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block; /* Mantém os links na mesma linha */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.hero {
+    background-image: url('path-to-your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(24, 23, 23);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.product p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.product button {
+    background-color: #e97b52;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product button:hover {
+    background-color: #d96b46;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about div {
+    flex: 1 0 45%;
+    padding: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #2d3e46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    color: #e97b52;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para a montagem de cama personalizada */
+.custom-bed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.bed-preview {
+    flex: 1 0 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bed-preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bed-options {
+    flex: 1 0 50%;
+    text-align: center;
+}
+
+.bed-options select, .bed-options button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.bed-options button {
+    background-color: #e97b52;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.bed-options button:hover {
+    background-color: #d96b46;
+}
